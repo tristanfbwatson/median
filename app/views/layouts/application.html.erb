@@ -27,12 +27,14 @@
 
 		</nav>
 
-	</header>
-
-	<%= simple_form_for :search, url: search_path do |f|  %>
+		<%= simple_form_for :search, url: search_path do |f|  %>
 			<%= f.input :query %>
 			<%= f.button :submit, "Go" %>
 		<% end %>
+
+	</header>
+
+	
 
 	<% if flash[:alert].present? %>
 		<div class="alert"><%=flash[:alert] %></div>

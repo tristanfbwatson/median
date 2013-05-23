@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '1.9.3'
+# ruby '1.9.3'
 
 gem 'rails', '3.2.12'
 
@@ -36,6 +36,9 @@ gem 'stringex'
 
 # Markdown gem
 gem 'rdiscount'
+
+# Amazon S3
+gem 'aws-sdk'
 
 
 # Gems used only for assets and not required
