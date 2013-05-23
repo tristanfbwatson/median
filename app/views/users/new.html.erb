@@ -1,0 +1,8 @@
+<h2>Sign up to Median</h2>
+
+<%= simple_form_for @user do |f| %>
+		<%= f.input :username %>
+		<%= f.input :email, label: "Email address" %>
+		<%= f.input :password %>
+		<%= f.button :submit %>
+<% end %>

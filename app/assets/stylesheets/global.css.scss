@@ -1,0 +1,76 @@
+$green: #2ecc71;
+$dark_freen: #27ae60;
+
+$red: #16a085;
+$yellow: #f1c40f;
+
+$blue: #2980b9;
+
+body {
+	font-family: Arial;
+	width: 960px;
+	margin: 0 auto;
+
+}
+
+a {
+	color: $blue;
+}
+
+header {
+	background: $green;
+	padding: 20px;
+	margin: 0 0 20px 0;
+	overflow: hidden;
+
+	h1 {
+		float: left;
+	}
+
+	nav {
+		float:right;
+	}
+
+	a {
+		color: #ffffff;
+	}
+
+}
+
+.search {
+		clear: both;
+		width: 150px;
+		float: right;
+		padding: 0;
+		margin: 0 0 20px 0;
+	input{
+		width:100%;
+		margin: 0 0 5px 0;
+		}
+	.button {
+		width: auto;
+		float: right;
+	}
+	label {
+		display: none;
+	}
+	}
+
+.alert {
+	paddding: 20px;
+	background: $yellow;
+}
+
+.error {
+	padding: 20px;
+	background: $red;
+
+}
+
+form label {
+	display: block;
+}
+
+.highlight {
+	background: $yellow;
+}
